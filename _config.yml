@@ -1,0 +1,27 @@
+title: Player 2 Games
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-postcss
+
+port: 3999
+
+postcss:
+  cache: false
+
+exclude:
+  - .git
+  - .github
+  - .gitignore
+  - .tool-versions
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
