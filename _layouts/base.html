@@ -31,10 +31,16 @@
     <meta property="og:type" content="{{ page.type | default: 'website' }}" />
     <meta property="og:description" content="{{ description }}" />
 
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="{{ title }}" />
-    <meta property="twitter:label1" content="Label" />
-    <meta property="twitter:data1" content="Data" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="{{ site.domain }}" />
+    <meta name="twitter:title" value="{{ title }}" />
+    <meta name="twitter:description" value="{{ description }}" />
+    <meta name="twitter:image" content="{{ social_image | absolute_url }}" />
+    <meta name="twitter:url" value="{{ site.domain }}" />
+    <meta name="twitter:label1" value="Podcasting" />
+    <meta name="twitter:data1" value="Weekly on Wednesdays" />
+    <meta name="twitter:label2" value="Test 2" />
+    <meta name="twitter:data2" value="at " />
 
     <script type="application/ld+json">
       {
