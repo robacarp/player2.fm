@@ -1,7 +1,9 @@
 title: Player 2 Games
+tagline: Video game news and updates and what we think of them.
+description: A podcast about video game news, history, and opinions. Hosted by Kirk and Luke.
+social_image: "/assets/images/social - opengraph - banner.jpg"
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-postcss
 
@@ -14,12 +16,13 @@ exclude:
   - .git
   - .github
   - .gitignore
-  - .tool-versions
-  - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
+  - .sass-cache/
+  - .tool-versions
   - Gemfile
   - Gemfile.lock
+  - Procfile
+  - gemfiles/
   - node_modules/
   - package.json
   - postcss.config.js
