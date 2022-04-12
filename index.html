@@ -4,27 +4,28 @@ title: Find us online
 social_image: "/assets/images/social - opengraph - banner.jpg"
 ---
 
-<div id="home-cards">
-  {%comment%}
-    SVG icons from https://www.iconfinder.com/search
-    SVG icons from https://www.iconfinder.com/collections/collection/1672006
-  {%endcomment%}
-  <a href="https://www.patreon.com/player2games">
-    <img src="/assets/images/icons - social - patreon.svg">
-  </a>
-  <a href="https://youtube.com/channel/UCUqL2EtfXvWojogTZ_k6cCw">
-    <img src="/assets/images/icons - social - youtube.svg">
-  </a>
-  <a href="https://instagram.com/playertwogames">
-    <img src="/assets/images/icons - social - instagram.svg">
-  </a>
-  <a href="http://tiktok.com/@playertwogames">
-    <img src="/assets/images/icons - social - tiktok.svg">
-  </a>
-  <a href="https://open.spotify.com/show/1bKNv5lwt7IiauxiTcYvZR">
-    <img src="/assets/images/icons - social - spotify.svg">
-  </a>
-  <a href="https://twitter.com/playertwogamez">
-    <img src="/assets/images/icons - social - twitter.svg">
-  </a>
+<div class="flex flex-col items-center mx-auto
+            sm:flex-row sm:items-start
+            md:w-5/6
+  ">
+
+  <img src="/assets/images/headshot - kirk - cropped.png" alt="Kirk, headshot" class="rounded mr-4">
+
+  <div class="flex flex-col mt-4 sm:mt-0">
+    <div class="prose">
+      <p>
+        Kirk is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
+        <br>
+        Ultimate Hipster.
+      </p>
+    </div>
+
+    <div class="flex mt-4 md:mt-8 space-x-2">
+      {% for network in site.links.kirk %}
+        <a href="{{ network.url }}">
+          <img class="w-24" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
+        </a>
+      {% endfor %}
+    </div>
+  </div>
 </div>

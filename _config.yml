@@ -28,3 +28,43 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+
+# SVG icons from https://www.iconfinder.com
+# https://www.iconfinder.com/collections/collection/1672006
+links:
+  kirk:
+    - type: Tiktok
+      url: 'http://tiktok.com/@playertwogames'
+      username: playertwogames
+    - type: Instagram
+      url: 'https://instagram.com/playertwogames'
+      username: playertwogames
+    - type: Patreon
+      url: 'https://www.patreon.com/player2games'
+      username: player2games
+    - type: Twitter
+      url: 'https://twitter.com/playertwogamez'
+      username: playertwogamez
+    - type: Youtube
+      url: 'https://youtube.com/channel/UCUqL2EtfXvWojogTZ_k6cCw'
+      username: Player 2 Games
+  support:
+    - type: Anchor.fm
+      url: 'https://anchor.fm/s/861f09ec/podcast/rss'
+    - type: Patreon
+      url: 'https://www.patreon.com/player2games'
+      username: player2games
+  podcast:
+    # https://rss.com/blog/how-to-upload-a-podcast-to-spotify/
+    - type: Spotify
+      url: 'https://open.spotify.com/show/1bKNv5lwt7IiauxiTcYvZR'
+    # https://podcasters.apple.com/support/897-submit-a-show
+    # - type: Apple Podcasts
+    #   url: 'https://anchor.fm/s/861f09ec/podcast/rss'
+    - type: RSS
+      url: 'https://anchor.fm/s/861f09ec/podcast/rss'
+    - type: Youtube
+      url: 'https://www.youtube.com/watch?v=caZOLU-Gy4M&list=PLRZNrPbJfQbiIRdS6q8tT8KJWLMKi6xY8'
+    # https://overcast.fm/add
+    # - tye: overcast
+    #   url: 
