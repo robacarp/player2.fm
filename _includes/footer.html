@@ -10,7 +10,7 @@
 
           <ul class="list-disc list-inside">
           {% for network in site.links.kirk %}
-            <li class="ml-2">
+            <li class="ml-2 whitespace-nowrap">
               <a href="{{ network.url }}">{{ network.type }}</a>
             </li>
           {% endfor %}
@@ -22,7 +22,7 @@
 
           <ul class="list-disc list-inside">
           {% for network in site.links.podcast %}
-            <li class="ml-2">
+            <li class="ml-2 whitespace-nowrap">
               <a href="{{ network.url }}">{{ network.type }}</a>
             </li>
           {% endfor %}
@@ -34,7 +34,7 @@
 
           <ul class="list-disc list-inside">
           {% for network in site.links.support %}
-            <li class="ml-2">
+            <li class="ml-2 whitespace-nowrap">
               <a href="{{ network.url }}">{{ network.type }}</a>
             </li>
           {% endfor %}
@@ -43,7 +43,7 @@
 
         <div>
           <p class="font-bold">Business Inquiry:</p>
-          <a href="#" onclick="window.location='mailto:player2partners'+'@'+'gmail.com?subject=Business Inquiry'">Email Us</a>
+          <a class="whitespace-nowrap" href="#" onclick="window.location='mailto:player2partners'+'@'+'gmail.com?subject=Business Inquiry'">Email Us</a>
         </div>
       </div>
 
