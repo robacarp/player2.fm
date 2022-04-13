@@ -21,7 +21,7 @@ social_image: "/assets/images/social - opengraph - banner.jpg"
     </div>
 
     <div class="flex mt-4 md:mt-8 space-x-2">
-      {% for network in site.links.kirk %}
+      {% for network in site.data.links.kirk %}
         <a href="{{ network.url }}">
           <img class="w-24" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
         </a>

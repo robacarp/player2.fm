@@ -9,7 +9,7 @@
           <p class="font-bold">Follow Kirk:</p>
 
           <ul class="list-disc list-inside">
-          {% for network in site.links.kirk %}
+          {% for network in site.data.links.kirk %}
             <li class="ml-2 whitespace-nowrap">
               <a href="{{ network.url }}">{{ network.type }}</a>
             </li>
@@ -21,7 +21,7 @@
           <p class="font-bold">Listen to the Podcast:</p>
 
           <ul class="list-disc list-inside">
-          {% for network in site.links.podcast %}
+          {% for network in site.data.links.podcast %}
             <li class="ml-2 whitespace-nowrap">
               <a href="{{ network.url }}">{{ network.type }}</a>
             </li>
@@ -33,7 +33,7 @@
           <p class="font-bold">Support Us:</p>
 
           <ul class="list-disc list-inside">
-          {% for network in site.links.support %}
+          {% for network in site.data.links.support %}
             <li class="ml-2 whitespace-nowrap">
               <a href="{{ network.url }}">{{ network.type }}</a>
             </li>
@@ -51,7 +51,7 @@
 
       <div class="flex justify-center">
         <p>
-        &copy; {{ 'now' | date: "%Y" }}
+        &copy; {{ 'now' | date: "%Y" }} All Rights Reserved.
         </p>
       </div>
     </div>
