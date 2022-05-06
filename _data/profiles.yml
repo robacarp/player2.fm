@@ -1,0 +1,46 @@
+# SVG icons from https://www.iconfinder.com
+# https://www.iconfinder.com/collections/collection/1672006
+
+- name: Kirk
+  image:
+    src: /assets/images/headshot - kirk - cropped.png
+    alt: Kirk, headshot
+  bio: |+
+      Kirk is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
+
+      Ultimate Hipster.
+  links:
+    - type: Instagram
+      url: https://instagram.com/playertwogames
+      username: playertwogames
+    - type: Tiktok
+      url: http://tiktok.com/@playertwogames
+      username: playertwogames
+    - type: Youtube
+      url: https://youtube.com/channel/UCUqL2EtfXvWojogTZ_k6cCw
+      username: Player 2 Games
+    - type: Twitter
+      url: https://twitter.com/playertwogamez
+      username: playertwogamez
+
+- name: Luke
+  image:
+    src: /assets/images/logo - playsatknight - cropped.png
+  bio: |+
+      Luke is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
+
+      Ultimate Hipster.
+  links:
+    - type: Instagram
+      url: https://instagram.com/playsatknight
+      username: PlaysAtKnight
+    - type: Tiktok
+      url: https://www.tiktok.com/@playsatknight
+      username: PlaysAtKnight
+    - type: Youtube
+      url: https://youtube.com/channel/UCsAI_r0cFpDY-wTFz8N8Xqg
+      username: PlaysAtKnight
+    - type: Twitter
+      url: https://twitter.com/PlaysAtKnight
+      username: PlaysAtKnight
+

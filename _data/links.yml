@@ -1,53 +1,20 @@
-# SVG icons from https://www.iconfinder.com
-# https://www.iconfinder.com/collections/collection/1672006
-
-kirk:
-  - type: Tiktok
-    url: 'http://tiktok.com/@playertwogames'
-    username: playertwogames
-  - type: Instagram
-    url: 'https://instagram.com/playertwogames'
-    username: playertwogames
-  - type: Patreon
-    url: 'https://www.patreon.com/player2games'
-    username: player2games
-  - type: Twitter
-    url: 'https://twitter.com/playertwogamez'
-    username: playertwogamez
-  - type: Youtube
-    url: 'https://youtube.com/channel/UCUqL2EtfXvWojogTZ_k6cCw'
-    username: Player 2 Games
-
-luke:
-  - type: Youtube
-    url: 'https://youtube.com/channel/UCsAI_r0cFpDY-wTFz8N8Xqg'
-    username: 'PlaysAtKnight'
-  - type: Twitter
-    url: 'https://twitter.com/PlaysAtKnight'
-    username: 'PlaysAtKnight'
-  - type: Tiktok
-    url: 'https://www.tiktok.com/@playsatknight'
-    username: 'PlaysAtKnight'
-  - type: Instagram
-    url: 'https://instagram.com/playsatknight'
-    username: 'PlaysAtKnight'
-
 support:
   - type: Anchor.fm
-    url: 'https://anchor.fm/s/861f09ec/podcast/rss'
+    url: https://anchor.fm/s/861f09ec/podcast/rss
   - type: Patreon
-    url: 'https://www.patreon.com/join/player2games/checkout'
+    url: https://www.patreon.com/join/player2games/checkout
+
 podcast:
   # https://rss.com/blog/how-to-upload-a-podcast-to-spotify/
   - type: Spotify
-    url: 'https://open.spotify.com/show/1bKNv5lwt7IiauxiTcYvZR'
+    url: https://open.spotify.com/show/1bKNv5lwt7IiauxiTcYvZR
   # https://podcasters.apple.com/support/897-submit-a-show
   # - type: Apple Podcasts
   #   url: 'https://anchor.fm/s/861f09ec/podcast/rss'
   - type: RSS
-    url: 'https://anchor.fm/s/861f09ec/podcast/rss'
+    url: https://anchor.fm/s/861f09ec/podcast/rss
   - type: Youtube
-    url: 'https://www.youtube.com/watch?v=caZOLU-Gy4M&list=PLRZNrPbJfQbiIRdS6q8tT8KJWLMKi6xY8'
+    url: https://www.youtube.com/watch?v=caZOLU-Gy4M&list=PLRZNrPbJfQbiIRdS6q8tT8KJWLMKi6xY8
   # https://overcast.fm/add
   # - tye: overcast
   #   url: 
