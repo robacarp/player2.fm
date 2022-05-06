@@ -4,28 +4,26 @@ title: Find us online
 social_image: "/assets/images/social - opengraph - banner.jpg"
 ---
 
-<div class="flex flex-col items-center mx-auto space-y-12 md:w-5/6">
+<div class="grid flex-col justify-items-center mx-auto max-w-4xl space-y-12 md:w-5/6">
 
   {% for profile in site.data.profiles %}
     {% unless forloop.first %}
-      <hr class="w-1/2">
+      <hr class="w-1/2 col-span-2">
     {% endunless %}
 
-    <div class="flex flex-col sm:flex-row items-center space-x-2 space-y-2">
-      <img src="{{ profile.image.src }}" alt="{{ profile.image.alt }}" class="rounded md:mr-4" style="max-width:250px; max-height:272px">
+    <img src="{{ profile.image.src }}" alt="{{ profile.image.alt }}" class="rounded md:mr-4" style="max-width:250px; max-height:272px">
 
-      <div class="flex flex-col space-y-4">
-        <div class="prose">
-          {{ profile.bio | markdownify }}
-        </div>
+    <div class="flex flex-col space-y-4">
+      <div class="prose">
+        {{ profile.bio | markdownify }}
+      </div>
 
-        <div class="flex justify-center space-x-2">
-          {% for network in profile.links %}
-            <a href="{{ network.url }}">
-              <img class="w-16" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
-            </a>
-          {% endfor %}
-        </div>
+      <div class="flex justify-center space-x-2">
+        {% for network in profile.links %}
+          <a href="{{ network.url }}">
+            <img class="w-16" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
+          </a>
+        {% endfor %}
       </div>
     </div>
   {% endfor %}
