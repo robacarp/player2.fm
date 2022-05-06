@@ -4,28 +4,52 @@ title: Find us online
 social_image: "/assets/images/social - opengraph - banner.jpg"
 ---
 
-<div class="flex flex-col items-center mx-auto
-            sm:flex-row sm:items-start
-            md:w-5/6
-  ">
+<div class="flex flex-col items-center mx-auto space-y-12 md:w-5/6">
 
-  <img src="/assets/images/headshot - kirk - cropped.png" alt="Kirk, headshot" class="rounded mr-4">
+  <div class="flex flex-col sm:flex-row items-center space-x-2 space-y-2">
+    <img src="/assets/images/headshot - kirk - cropped.png" alt="Kirk, headshot" class="rounded md:mr-4" style="max-width:250px; max-height:272px">
 
-  <div class="flex flex-col mt-4 sm:mt-0">
-    <div class="prose">
-      <p>
-        Kirk is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
-        <br>
-        Ultimate Hipster.
-      </p>
-    </div>
+    <div class="flex flex-col mt-4 sm:mt-0">
+      <div class="prose">
+        <p>
+          Kirk is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
+          <br>
+          Ultimate Hipster.
+        </p>
+      </div>
 
-    <div class="flex mt-4 md:mt-8 space-x-2">
-      {% for network in site.data.links.kirk %}
-        <a href="{{ network.url }}">
-          <img class="w-24" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
-        </a>
-      {% endfor %}
+      <div class="flex mt-4 md:mt-8 space-x-2">
+        {% for network in site.data.links.kirk %}
+          <a href="{{ network.url }}">
+            <img class="w-16" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
+
+  <hr class="w-1/2">
+
+  <div class="flex flex-col items-center sm:flex-row space-x-2 space-y-2">
+    <img src="/assets/images/logo - playsatknight - cropped.png" alt="Plays at Knight Games" class="rounded md:mr-4 " style="max-width:250px; max-height:272px">
+
+    <div class="flex flex-col mt-4 items-center sm:mt-0">
+      <div class="prose">
+        <p>
+          Luke is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
+          <br>
+          Ultimate Hipster.
+        </p>
+
+        <div class="flex mt-4 md:mt-8 space-x-2">
+          {% for network in site.data.links.luke %}
+            <a href="{{ network.url }}">
+              <img class="w-16" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Luke on {{ network.type }}">
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>

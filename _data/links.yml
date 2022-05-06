@@ -17,6 +17,21 @@ kirk:
   - type: Youtube
     url: 'https://youtube.com/channel/UCUqL2EtfXvWojogTZ_k6cCw'
     username: Player 2 Games
+
+luke:
+  - type: Youtube
+    url: 'https://youtube.com/channel/UCsAI_r0cFpDY-wTFz8N8Xqg'
+    username: 'PlaysAtKnight'
+  - type: Twitter
+    url: 'https://twitter.com/PlaysAtKnight'
+    username: 'PlaysAtKnight'
+  - type: Tiktok
+    url: 'https://www.tiktok.com/@playsatknight'
+    username: 'PlaysAtKnight'
+  - type: Instagram
+    url: 'https://instagram.com/playsatknight'
+    username: 'PlaysAtKnight'
+
 support:
   - type: Anchor.fm
     url: 'https://anchor.fm/s/861f09ec/podcast/rss'
