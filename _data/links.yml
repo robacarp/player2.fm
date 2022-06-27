@@ -1,6 +1,4 @@
 support:
-  - type: Anchor.fm
-    url: https://anchor.fm/s/861f09ec/podcast/rss
   - type: Patreon
     url: https://www.patreon.com/join/player2games/checkout
 
@@ -12,7 +10,7 @@ podcast:
   # - type: Apple Podcasts
   #   url: 'https://anchor.fm/s/861f09ec/podcast/rss'
   - type: RSS
-    url: https://anchor.fm/s/861f09ec/podcast/rss
+    url: https://anchor.fm/player2player
   - type: Youtube
     url: https://www.youtube.com/watch?v=caZOLU-Gy4M&list=PLRZNrPbJfQbiIRdS6q8tT8KJWLMKi6xY8
   # https://overcast.fm/add
