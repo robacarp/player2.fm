@@ -1,0 +1,41 @@
+---
+layout: base
+title: Episodes
+social_image: "/assets/images/social - opengraph - banner.jpg"
+---
+
+<ul class="flex flex-col space-y-6">
+  {% for episode in site.data.feed %}
+    <li
+    >
+      <div class="
+             p-2 px-4 rounded-t-xl shadow-lg
+             bg-gray-200 text-gray-800
+           "
+        >
+        <p class="text-sm font-bold">#{{ episode.episode }}</p>
+
+        <a class="text-xl mb-2"
+           href="{{ episode.link }}">
+          {{ episode.title }}
+        </a>
+
+        <p>
+          {{ episode.description }}
+        </p>
+      </div>
+
+      <a class="
+           block
+           p-2 rounded-b-xl shadow-lg
+           bg-gray-800 text-gray-200
+         "
+         href="#"
+      >
+        <img class="inline" src="/assets/images/icons - black - Play.svg">
+        Play Now
+      </a>
+    </li>
+
+  {% endfor %}
+</ul>
