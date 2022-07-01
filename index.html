@@ -4,29 +4,57 @@ title: Find us online
 social_image: "/assets/images/social - opengraph - banner.jpg"
 ---
 
-<div class="flex flex-col md:grid justify-items-center mx-auto max-w-4xl space-y-12 md:w-5/6">
+<div class="
+    flex flex-col space-y-2 text-black
+    lg:flex-row lg:space-x-4
+    ">
+  <img
+    class="w-full max-w-sm"
+    src="/assets/images/logo - podcast.jpg"
+  >
 
-  {% for profile in site.data.profiles %}
-    {% unless forloop.first %}
-      <hr class="w-1/2 col-span-2">
-    {% endunless %}
+  <div class="flex flex-col space-y-2">
+    <p class="text-black">
+      Join Kirk and Luke weekly as they discuss gaming news, releases, and culture.
+    </p>
 
-    <img src="{{ profile.image.src }}" alt="{{ profile.image.alt }}" class="rounded md:mr-4" style="max-width:250px; max-height:272px">
-
-    <div class="flex flex-col space-y-4">
-      <div class="prose">
-        {{ profile.bio | markdownify }}
-      </div>
-
-      <div class="flex justify-center space-x-2">
-        {% for network in profile.links %}
+    <p class="font-bold">Listen:</p>
+    <ul>
+      {% for network in site.data.links.podcast %}
+        <li class="ml-2 mb-2">
           <a href="{{ network.url }}">
-            <img class="w-16" src="/assets/images/icons - social - black - {{ network.type }}.svg" alt="Kirk on {{ network.type }}">
+            <img class="inline w-6" src="/assets/images/icons - networks - {{ network.type }}.svg"> {{ network.type }}
           </a>
-        {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
 
-
+    <p class="font-bold">Interact:</p>
+    <ul>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Discord
+        </a>
+      </li>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Twitter
+        </a>
+      </li>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Facebook
+        </a>
+      </li>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Instagram
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
