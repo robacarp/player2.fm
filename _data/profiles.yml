@@ -5,10 +5,7 @@
   image:
     src: /assets/images/headshot - kirk - cropped.png
     alt: Kirk, headshot
-  bio: |+
-      Kirk is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.
-
-      Ultimate Hipster.
+  bio: Kirk Knight, long time Nintendo fan, collector, lover of all games indie, and new content creator. He hosts a podcast with his brother Luke every week and makes videos whenever he feels like it.
   links:
     - type: Instagram
       url: https://instagram.com/playertwogames
@@ -25,7 +22,7 @@
 
 - name: Luke
   image:
-    src: /assets/images/logo - playsatknight - cropped.png
+    src: /assets/images/headshot - luke - cropped.png
   bio: |+
       Luke is a gamer and podcaster. He loves zombies.
   links:
