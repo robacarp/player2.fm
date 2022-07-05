@@ -1,10 +1,7 @@
 module.exports = {
-  safelist:{ pattern: /.*/ },
   content: [
-    "_site/**/*.html",
     "*.html",
-    "_includes/*.html",
-    "_layouts/*.html",
+    "**/*.html",
   ],
   theme: {
     extend: {
