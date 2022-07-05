@@ -57,7 +57,7 @@
   </head>
 
   <body class="from-brand-500 to-brand-200 bg-gradient-to-t bg-fixed
-               text-brand-900
+               text-gray-600 pb-8
                ">
 
         <!-- <header.html> -->
@@ -68,83 +68,85 @@
         </a>
       </h1>
     </header>
-    <!-- </header.html> -->
 
+    <nav class="w-5/6 mx-auto mb-4 text-brand-900">
+      <ul class="flex flex-row space-x-4 justify-center">
+        <li><a href="/">About</a></li>
+        <li><a href="/episodes">Episodes</a></li>
+        <li><a href="/hosts">Hosts</a></li>
+      </ul>
+    </nav>
+
+    <!-- </header.html> -->
 
 
     <main class="bg-white rounded-t mx-auto w-5/6 p-6" aria-label="Content">
       <!-- <index.html> -->
-      <div class="flex flex-col md:grid justify-items-center mx-auto max-w-4xl space-y-12 md:w-5/6">
+      <div class="
+    flex flex-col space-y-2 text-black
+    lg:flex-row lg:space-x-4
+    ">
+  <img
+    class="w-full max-w-sm"
+    src="/assets/images/logo - podcast.jpg"
+  >
 
-  
-    
+  <div class="flex flex-col space-y-2">
+    <p class="text-black">
+      Join Kirk and Luke weekly as they discuss gaming news, releases, and culture.
+    </p>
 
-    <img src="/assets/images/headshot - kirk - cropped.png" alt="Kirk, headshot" class="rounded md:mr-4" style="max-width:250px; max-height:272px">
-
-    <div class="flex flex-col space-y-4">
-      <div class="prose">
-        <p>Kirk is a gamer and podcaster. He plays platformers every day of the week for at least 9 hours.</p>
-
-<p>Ultimate Hipster.</p>
-
-      </div>
-
-      <div class="flex justify-center space-x-2">
-        
-          <a href="https://instagram.com/playertwogames">
-            <img class="w-16" src="/assets/images/icons - social - black - Instagram.svg" alt="Kirk on Instagram">
+    <p class="font-bold">Listen:</p>
+    <ul>
+      
+        <li class="ml-2 mb-2">
+          <a href="https://open.spotify.com/show/1bKNv5lwt7IiauxiTcYvZR">
+            <img class="inline w-6" src="/assets/images/icons - networks - Spotify.svg"> Spotify
           </a>
-        
-          <a href="http://tiktok.com/@playertwogames">
-            <img class="w-16" src="/assets/images/icons - social - black - Tiktok.svg" alt="Kirk on Tiktok">
+        </li>
+      
+        <li class="ml-2 mb-2">
+          <a href="https://anchor.fm/player2player">
+            <img class="inline w-6" src="/assets/images/icons - networks - RSS.svg"> RSS
           </a>
-        
-          <a href="https://youtube.com/channel/UCUqL2EtfXvWojogTZ_k6cCw">
-            <img class="w-16" src="/assets/images/icons - social - black - Youtube.svg" alt="Kirk on Youtube">
+        </li>
+      
+        <li class="ml-2 mb-2">
+          <a href="https://www.youtube.com/watch?v=caZOLU-Gy4M&list=PLRZNrPbJfQbiIRdS6q8tT8KJWLMKi6xY8">
+            <img class="inline w-6" src="/assets/images/icons - networks - Youtube.svg"> Youtube
           </a>
-        
-          <a href="https://twitter.com/playertwogamez">
-            <img class="w-16" src="/assets/images/icons - social - black - Twitter.svg" alt="Kirk on Twitter">
-          </a>
-        
-      </div>
-    </div>
-  
-    
-      <hr class="w-1/2 col-span-2">
-    
+        </li>
+      
+    </ul>
 
-    <img src="/assets/images/logo - playsatknight - cropped.png" alt="" class="rounded md:mr-4" style="max-width:250px; max-height:272px">
-
-    <div class="flex flex-col space-y-4">
-      <div class="prose">
-        <p>Luke is a gamer and podcaster. He loves zombies.</p>
-
-      </div>
-
-      <div class="flex justify-center space-x-2">
-        
-          <a href="https://instagram.com/playsatknight">
-            <img class="w-16" src="/assets/images/icons - social - black - Instagram.svg" alt="Kirk on Instagram">
-          </a>
-        
-          <a href="https://www.tiktok.com/@playsatknight">
-            <img class="w-16" src="/assets/images/icons - social - black - Tiktok.svg" alt="Kirk on Tiktok">
-          </a>
-        
-          <a href="https://youtube.com/channel/UCsAI_r0cFpDY-wTFz8N8Xqg">
-            <img class="w-16" src="/assets/images/icons - social - black - Youtube.svg" alt="Kirk on Youtube">
-          </a>
-        
-          <a href="https://twitter.com/PlaysAtKnight">
-            <img class="w-16" src="/assets/images/icons - social - black - Twitter.svg" alt="Kirk on Twitter">
-          </a>
-        
-      </div>
-    </div>
-  
-
-
+    <p class="font-bold">Interact:</p>
+    <ul>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Discord
+        </a>
+      </li>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Twitter
+        </a>
+      </li>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Facebook
+        </a>
+      </li>
+      <li class="ml-2 mb-2">
+        <a href="#">
+          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
+          Instagram
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
 
       <!-- </index.html> -->
@@ -152,7 +154,7 @@
 
         <!-- <footer.html> -->
 
-    <footer class="w-5/6 mx-auto p-4 bg-black/20 rounded-b">
+    <footer class="w-5/6 mx-auto p-4 bg-black/20 rounded-b text-brand-900">
       <div class="flex flex-col items-center">
         <div class="flex flex-col space-y-4
                     sm:flex-row sm:space-y-0 sm:space-x-4
@@ -218,7 +220,7 @@
               </li>
             
               <li class="ml-2 whitespace-nowrap">
-                <a href="https://anchor.fm/s/861f09ec/podcast/rss">RSS</a>
+                <a href="https://anchor.fm/player2player">RSS</a>
               </li>
             
               <li class="ml-2 whitespace-nowrap">
@@ -234,10 +236,6 @@
             <ul class="list-disc list-inside">
             
               <li class="ml-2 whitespace-nowrap">
-                <a href="https://anchor.fm/s/861f09ec/podcast/rss">Anchor.fm</a>
-              </li>
-            
-              <li class="ml-2 whitespace-nowrap">
                 <a href="https://www.patreon.com/join/player2games/checkout">Patreon</a>
               </li>
             
@@ -246,7 +244,7 @@
 
           <div>
             <p class="font-bold">Business Inquiry:</p>
-            <a class="whitespace-nowrap" href="#" onclick="window.location='mailto:player2partners'+'@'+'gmail.com?subject=Business Inquiry'">Email Us</a>
+            <a class="whitespace-nowrap" href="#" onclick="window.location='mailto:player2partners'+'@'+'gmail.com?subject=Business Inquiry'">Email</a>
           </div>
         </div>
       </div>
