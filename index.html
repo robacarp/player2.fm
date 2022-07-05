@@ -19,40 +19,36 @@ social_image: "/assets/images/social - opengraph - banner.jpg"
     </p>
 
     <p class="font-bold">Listen:</p>
-    <ul>
+    <ul class="flex flex-row">
       {% for network in site.data.links.podcast %}
         <li class="ml-2 mb-2">
           <a href="{{ network.url }}">
-            <img class="inline w-6" src="/assets/images/icons - networks - {{ network.type }}.svg"> {{ network.type }}
+            <img class="inline w-6" src="/assets/images/icons - networks - {{ network.type }}.svg">
           </a>
         </li>
       {% endfor %}
     </ul>
 
     <p class="font-bold">Interact:</p>
-    <ul>
+    <ul class="flex flex-row">
       <li class="ml-2 mb-2">
         <a href="#">
-          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
-          Discord
+          <img class="inline w-6" src="/assets/images/icons - social - black - Patreon.svg">
         </a>
       </li>
       <li class="ml-2 mb-2">
         <a href="#">
-          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
-          Twitter
+          <img class="inline w-6" src="/assets/images/icons - social - black - Twitter.svg">
         </a>
       </li>
       <li class="ml-2 mb-2">
         <a href="#">
-          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
-          Facebook
+          <img class="inline w-6" src="/assets/images/icons - social - black - Facebook.svg">
         </a>
       </li>
       <li class="ml-2 mb-2">
         <a href="#">
-          <img class="inline w-6" src="/assets/images/icons - networks - spotify.svg">
-          Instagram
+          <img class="inline w-6" src="/assets/images/icons - social - black - Instagram.svg">
         </a>
       </li>
     </ul>
