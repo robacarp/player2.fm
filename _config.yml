@@ -6,6 +6,7 @@ social_image: "/assets/images/social - opengraph - banner.jpg"
 plugins:
   - jekyll-feed
   - jekyll-postcss
+  - jekyll-archives
 
 port: 3999
 
@@ -29,3 +30,11 @@ exclude:
   - tailwind.config.js
   - yarn.lock
 
+jekyll-archives:
+  enabled:
+    - year
+    - month
+  layout: archive_index
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'

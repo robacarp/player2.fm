@@ -5,7 +5,7 @@ social_image: "/assets/images/social - opengraph - banner.jpg"
 ---
 
 <ul class="flex flex-col space-y-6">
-  {% for episode in site.data.feed %}
+  {% for episode in site.posts %}
     <li
     >
       <div class="
@@ -16,12 +16,12 @@ social_image: "/assets/images/social - opengraph - banner.jpg"
         <p class="text-sm font-bold">#{{ episode.episode }}</p>
 
         <a class="text-xl mb-2"
-           href="{{ episode.link }}">
+           href="{{ episode.url }}">
           {{ episode.title }}
         </a>
 
         <p>
-          {{ episode.description }}
+          {{ episode.excerpt }}
         </p>
       </div>
 
@@ -30,7 +30,7 @@ social_image: "/assets/images/social - opengraph - banner.jpg"
            p-2 rounded-b-xl shadow-lg
            bg-gray-800 text-gray-200
          "
-         href="#"
+         href="{{ episode.url }}"
       >
         <img class="inline" src="/assets/images/icons - black - Play.svg">
         Play Now

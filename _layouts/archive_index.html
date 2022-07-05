@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<h1 class="text-xl mb-6">
+{% if page.type == 'year' %}
+  Episodes from {{ page.date | date: "%Y" }}
+{% elsif page.type == 'month' %}
+  Episodes from {{ page.date | date: "%h %Y" }}
+{% endif %}
+</h1>
+
+<ul class="flex flex-col space-y-4">
+  {% for post in page.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
